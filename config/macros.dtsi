@@ -4,17 +4,23 @@ label = "macro_dtmxl9432vmn";
 #binding-cells = <0>;
 bindings = <&kp D>, <&kp T>, <&kp M>, <&kp X>, <&kp L>, <&kp N9>, <&kp N4>, <&kp N3>, <&kp N2>, <&kp V>, <&kp M>, <&kp N>;
 };
-macro_password: macro_password{
+macro_mac_password: macro_mac_password{
 compatible = "zmk,behavior-macro";
-label = "macro_password";
+label = "macro_mac_password";
 #binding-cells = <0>;
 bindings = <&kp D>, <&kp D>, <&kp A>, <&kp V>, <&kp N1>, <&kp D>, <&kp O>, <&kp N>, <&kp E>, <&kp N1>, <&kp RETURN>;
+};
+macro_ti_user_password: macro_ti_user_password{
+compatible = "zmk,behavior-macro";
+label = "macro_ti_user_password";
+#binding-cells = <0>;
+bindings = <&kp A>, <&kp NUMBER_0>, <&kp NUMBER_1>, <&kp NUMBER_7>, <&kp NUMBER_4>, <&kp NUMBER_4>, <&kp NUMBER_7>, <&kp NUMBER_6>, <&kp TAB>, <&kp H>, <&kp R>, <&kp I>, <&kp NUMBER_1>, <&kp Z>, <&kp K>, <&kp LS(H)>, <&kp A>, <&kp RETURN>;
 };
 macro_ti_password: macro_ti_password{
 compatible = "zmk,behavior-macro";
 label = "macro_ti_password";
 #binding-cells = <0>;
-bindings = <&kp A>, <&kp NUMBER_0>, <&kp NUMBER_1>, <&kp NUMBER_7>, <&kp NUMBER_4>, <&kp NUMBER_4>, <&kp NUMBER_7>, <&kp NUMBER_6>, <&kp TAB>, <&kp H>, <&kp R>, <&kp I>, <&kp NUMBER_1>, <&kp Z>, <&kp K>, <&kp LS(H)>, <&kp A>, <&kp RETURN>;
+bindings = <&kp H>, <&kp R>, <&kp I>, <&kp NUMBER_1>, <&kp Z>, <&kp K>, <&kp LS(H)>, <&kp A>, <&kp RETURN>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
